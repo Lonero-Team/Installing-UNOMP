@@ -16,14 +16,14 @@ npm update
 
 ### Running UNOMP:
 
-Use the node init.js command to run
+Use the `node init.js` command to run
 
 ### Tools
-Installing Posix: npm install posix
+Installing Posix: `npm install posix`
 
-Installing bindings: npm install bindings
+Installing bindings: `npm install bindings`
 
-Bignum: npm install bignum
+Bignum: `npm install bignum`
 
 ### Running Redis: 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-redis
@@ -40,7 +40,7 @@ sudo service redis_6379 start
 sudo service redis_6379 stop
 ```
 
-Accessing the Redis CLI: type "redis-cli"
+Accessing the Redis CLI: type `redis-cli`
 
 ### Troubleshooting
 If you have the "eaccess" or access denied errors try using:
@@ -54,9 +54,9 @@ sudo npm install -g enterpackagename
 sudo npm install -g enterpackagename --allow-root
 ```
 
-##### Install node-gyp and use node-gyp rebuild to rebuild corrupted repos, or run the npm install command to reinstall the node modules
+##### Install node-gyp and use `node-gyp rebuild` to rebuild corrupted repos, or run the `npm install` command to reinstall the node modules
 
-##### If you can't do sudo npm install or sudo npm install -g, try force sudo:
+##### If you can't do `sudo npm install` or `sudo npm install -g`, try force sudo:
 ```
 sudo npm install -g -unsafe-perm=true --allow-root
 ```
