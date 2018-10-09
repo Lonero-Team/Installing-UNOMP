@@ -62,5 +62,5 @@ sudo npm install -g -unsafe-perm=true --allow-root
 ```
 ##### Force installing bindings
 ```
-sh-4.3$ sudo npm install -g bindings -unsafe-perm=true --allow-root
+sudo npm install -g bindings -unsafe-perm=true --allow-root
 ```
