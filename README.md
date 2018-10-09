@@ -55,3 +55,8 @@ sudo npm install -g enterpackagename --allow-root
 ```
 
 ##### Install node-gyp and use node-gyp rebuild to rebuild corrupted repos, or run the npm install command to reinstall the node modules
+
+##### If you can't do sudo npm install or sudo npm install -g, try force sudo:
+```
+sudo npm install -g -unsafe-perm=true --allow-root
+```
