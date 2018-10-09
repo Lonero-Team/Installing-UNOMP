@@ -64,3 +64,4 @@ sudo npm install -g -unsafe-perm=true --allow-root
 ```
 sudo npm install -g bindings -unsafe-perm=true --allow-root
 ```
+If global installation, force sudo or `sudo chmod 777` directory permissions doesn't work, try running `sudo rm -rf node_modules` to delete the node modules and try again
